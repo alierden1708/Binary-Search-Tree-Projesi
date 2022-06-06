@@ -1,5 +1,3 @@
-# Binary-Search-Tree-Projesi
-https://app.patika.dev/alierden
 ### [7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
 ##### İkili arama ağacı, her düğümün solundaki koldan ulaşılabilecek bütün verilerin düğümün değerinden küçük, sağ kolundan ulaşılabilecek verilerin değerinin o düğümün değerinden büyük olmasını şart koşar.
 |     Açıklama    |  |  |  |
@@ -53,7 +51,10 @@ https://app.patika.dev/alierden
 | Açıklama       |     |  |  |  |  |  |  |  |  |
 |--              |--   |--|- |- |- |- |- |- |- |
 |                |     |  |  |  |  |  | 7|  |  |  
-@@ -67,7 +67,7 @@
+|                |     |  |  |  |  | /|  |\ |  | 
+|                |     |  |  |  | 5|  |  |  |8 | 
+|                |     |  |  | /|  |\ |  |  |  |
+|                |     |  | 1|  |  |  |6 |  |  |
 |                |     | /|  |\ |  |  |  |  |  |
 | **0 ekledik**  |**0**|  |  |  | 3|  |  |  |  |
 
@@ -62,3 +63,33 @@ https://app.patika.dev/alierden
 | Açıklama     |  |  |  |  |  |  |  |  |  |  |     |
 |--            |--|--|- |- |- |- |- |- |- |- |-    |
 |              |  |  |  |  |  |  | 7|  |  |  |     |  
+|              |  |  |  |  |  | /|  |\ |  |  |     | 
+|              |  |  |  |  | 5|  |  |  |8 |  |     | 
+|              |  |  |  | /|  |\ |  |  |  |\ |     | 
+| **9 ekledik**|  |  | 1|  |  |  |6 |  |  |  |**9**|
+|              |  | /|  |\ |  |  |  |  |  |  |     |
+|              | 0|  |  |  | 3|  |  |  |  |  |     |
+**4 sayısı  7'den ve 5'ten küçük olduğunda 5'in soluna, 1'den ve 3'ten büyük olduğunda 3'ün sağına ekledik** 
+| Açıklama    |  |  |  |  |  |  |     |  |  |  |  |
+|--           |--|--|- |- |- |- |-    |- |- |- |- |
+|             |  |  |  |  |  |  | 7   |  |  |  |  |  
+|             |  |  |  |  |  | /|     |\ |  |  |  | 
+|             |  |  |  |  | 5|  |     |  |8 |  |  | 
+|             |  |  |  | /|  |\ |     |  |  |\ |  |
+|             |  |  | 1|  |  |  |6    |  |  |  | 9|
+|             |  | /|  |\ |  |  |     |  |  |  |  |
+|             | 0|  |  |  | 3|  |     |  |  |  |  |
+|             |  |  |  |  |  |\ |     |  |  |  |  |
+|**4 ekledik**|  |  |  |  |  |  |**4**|  |  |  |  |
+**2 sayısı  7'den ve 5'ten küçük olduğunda 5'in soluna, 1'den büyük olduğunda 1'in sağına ve 3'ten küçük olduğunda 3'ün soluna ekledik** 
+| Açıklama    |  |  |     |  |  |  |  |  |  |  |  |
+|--           |--|--|-    |- |- |- |- |- |- |- |- |
+|             |  |  |     |  |  |  | 7|  |  |  |  |  
+|             |  |  |     |  |  | /|  |\ |  |  |  | 
+|             |  |  |     |  | 5|  |  |  |8 |  |  | 
+|             |  |  |     | /|  |\ |  |  |  |\ |  | 
+|             |  |  | 1   |  |  |  |6 |  |  |  | 9|
+|             |  | /|     |\ |  |  |  |  |  |  |  |
+|             | 0|  |     |  | 3|  |  |  |  |  |  |
+|             |  |  |     | /|  |\ |  |  |  |  |  |
+|**2 ekledik**|  |  |**2**|  |  |  |4 |  |  |  |  |
